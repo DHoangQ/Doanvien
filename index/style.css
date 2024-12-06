@@ -1,0 +1,191 @@
+.navbar{
+    background-color: #33CCFF;
+}
+.container{
+    height: 50px; position: relative;
+}
+.navbar-brand{
+    display: flex; position: absolute; top: 3px;
+}
+.fa-solid{
+    color: aliceblue; margin-right: 7px; margin-top: 7px; font-size: 25px;
+}
+.text-trangchu{
+    font-size: 24px; font-weight: 900; color: aliceblue;
+}
+
+.nav-link:hover {
+    background-color: rgb(25, 22, 226);
+    transition: 0.2s;
+}
+.logout{
+    position: absolute;
+    right: 70px;
+    top: 0px;
+    width: 150px;
+    height: 40px;
+}
+.logout_2{
+    position: absolute;
+    right: -40px;
+    top: 0px;
+    width: 150px;
+    height: 40px;
+}
+
+.right{
+    display: flex; position: absolute; right: 5px; top: 2px;  margin-top: 10px; color: aliceblue; 
+}
+.right p{
+    position: absolute;
+    right: 50px;
+    font-size: 14px; font-weight: bold;
+}
+.right p:hover{
+    background-color: #33CCFF;
+}
+.la{
+    position: absolute;
+    top: -5px;
+    right: -38px;
+    margin-left: 7px; font-size: 20px;
+}
+
+#chidoan:hover a {
+    color: white;   
+}
+
+.text_chidoan {
+    height: 35px;
+    width: 90px;
+    margin-right: 10px;
+    background-color: #f3f6f4;
+    text-decoration: none;
+    border-radius: 5px;
+    line-height: 30px;
+    color: #33CCFF;
+    border: 1px solid #33CCFF;
+}
+
+.text_doanvien {
+    height: 35px;
+    width: 160px;
+    background-color: #f3f6f4;
+    text-decoration: none;
+    border-radius: 5px;
+    line-height: 30px;
+    color: #33CCFF;
+    border: 1px solid #33CCFF;
+}
+.text_thongke{
+    height: 35px;
+    width: 150px;
+    margin-right: 10px;
+    background-color: #f3f6f4;
+    text-decoration: none;
+    border-radius: 5px;
+    line-height: 30px;
+    color: #33CCFF;
+    border: 1px solid #33CCFF;
+    margin-left: 10px;
+}
+.text_lienhe{
+    height: 35px;
+    width: 150px;
+    margin-right: 10px;
+    background-color: #f3f6f4;
+    text-decoration: none;
+    border-radius: 5px;
+    line-height: 30px;
+    color: #33CCFF;
+    border: 1px solid #33CCFF;
+    margin-left: 10px;
+}
+
+.text:hover {
+    background-color: #33CCFF;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.hrr{
+    height: 5px; width: 1488px;
+}
+.drmn{
+    height: 35px;
+    width: 110px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #f3f6f4;
+    text-decoration: none;
+    border-radius: 5px;
+    line-height: 30px;
+    color: #33CCFF;
+    border: 1px solid #33CCFF;
+    margin-left: 10px;
+}
+.drmn:hover{
+    background-color: #33CCFF;
+    transition: 0.2s;
+}
+.drmn a{
+    margin-right: 13px;
+}
+
+.icdg{
+    position: absolute;
+    top: -4px;
+    color: #33CCFF;
+    right: 0px;
+}
+.drmn a:hover .icdg {
+    color: white;
+}
+
+.drmn a:hover{
+    color: #fff;
+}
+.drmn a{
+    color: #33CCFF;
+    text-decoration: none;
+    padding: 10px; 
+    cursor: pointer;
+}
+.drmn-con{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: none;
+    min-width: 160px;
+}
+.drmn-con li{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.drmn:hover .drmn-con {
+    display: block;
+}
+.drmn-con li:hover {
+    background-color: #33CCFF;
+}
+.drmn-con li a:hover{
+    color: #fff;
+}
+.card-body {
+    position: relative;
+}
+.drmn-con {
+    position: absolute;
+    z-index: 1;
+}
